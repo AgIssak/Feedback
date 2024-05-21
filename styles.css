@@ -1,0 +1,72 @@
+/* Подключение шрифта Roboto */
+@import url("https:/*fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(45deg, #fff1eb, #ace0f9);
+}
+
+.feedback-list {
+    margin-bottom: 20px;
+}
+
+.feedback-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+form {
+    margin-top: 20px;
+    width: 50%;
+    background: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+.sort-container {
+    display: inline-block;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+form select {
+    padding: 5px;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 20px;
+    background-image: url('path/to/your/icon.png');
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+form select:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+form select::-ms-expand {
+    display: none;
+}
+
+
+input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
